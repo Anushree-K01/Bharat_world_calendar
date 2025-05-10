@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, #f7957b, #a77dd1);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase; /* Ensures "BHARAT WORLD CALENDAR" is in capitals */
+}
+
+p {
+    font-size: 1.3em; /* Enlarges city prompt */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.city-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.city-tab {
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    background: #ffebcd; /* A subtle beige shade */
+    color: #222;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2em; /* Enlarged tabs */
+}
+
+input[type="text"] {
+    padding: 12px;
+    width: 60%;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#submitCity {
+    padding: 12px 20px;
+    font-size: 1.3em;
+    border-radius: 8px;
+    border: none;
+    background: #fff;
+    color: #444;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.output-box {
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 12px;
+    font-size: 1.2em;
+}
+
+.enlarged {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #ffffff; /* Changes from yellow to white */
+}

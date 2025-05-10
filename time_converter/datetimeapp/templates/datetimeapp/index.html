@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bharat World Calendar</title>
+  <link rel="stylesheet" href="{% static 'datetimeapp/style.css' %}" />
+  <script src="{% static 'datetimeapp/script.js' %}" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Bharat World Calendar</h1>
+    <p>Enter any city from the list to get the date and time:</p>
+
+    <!-- City List Tabs -->
+    <div class="city-tabs">
+      <button class="city-tab">San Francisco</button>
+      <button class="city-tab">New York</button>
+      <button class="city-tab">London</button>
+      <button class="city-tab">Dubai</button>
+      <button class="city-tab">Bangalore</button>
+      <button class="city-tab">Singapore</button>
+      <button class="city-tab">Tokyo</button>
+      <button class="city-tab">Sydney</button>
+      <button class="city-tab">Wellington</button>
+    </div>
+
+    <!-- City Input Box -->
+    <input type="text" id="cityInput" placeholder="Enter city name..." />
+
+    <!-- Submit Button -->
+    <button id="submitCity">Submit</button>
+
+    <!-- Display Output Here -->
+    <div id="output" class="output-box"></div>
+  </div>
+</body>
+</html>
